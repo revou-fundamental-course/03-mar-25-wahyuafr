@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Contact</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="wrapper">
+	
+		<div id="header">
+		
+			<div class="container">
+				<img id="logo" src="image/logo.png">
+				<div id="menu">
+					<ul>
+						<li class="nav1"><a href="index.html">HOME</a></li>
+						<li class="nav2"><a href="news.html">NEWS</a></li>
+						<li class="nav3"><a href="product.html">PRODUCT</a></li>
+						<li class="nav4"><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+<!--------------------------- END HEADER ----------------------------->
+		<div id="greenline"> </div>
+			<div id="content">
+				<div class="container">
+					<form id="form_contact" method="post" action="#">
+						<h2>Contact Form</h2>
+						<table>
+							<tr>
+								<td>Your Name :</td>
+								<td><input type="text" name="name"></td>								
+							</tr>
+							<tr>
+								<td>Your City :</td>
+								<td><input type="text" name="city"></td>								
+							</tr>
+							<tr>
+								<td>Your E-Mail :</td>			
+								<td><input type="email" name="email"></td>					
+							</tr>
+							<tr>
+								<td colspan="2">Your Message :</td>
+							</tr>
+							<tr>
+								<td colspan="2"><textarea name="message" class="message"></textarea></td>
+							</tr>
+							<tr>
+								<td colspan="2" align="right">
+									<input type="button" class="effect" value="Clear" onClick="deleteMsg()">
+									<input type="button" class="effect" value="Send" onClick="sendMsg()">
+								</td>
+							</tr>
+						</table>
+					</form>
+					<script>
+						function sendMsg(){
+							window.alert("We will contact your soon  :)");
+						}
+						function deleteMsg(){
+							var r=confirm("Are You Sure Want Delete This Massage  ?");
+							if (r==true) {
+								document.getElementById("form_contact").reset();}
+						}
+					</script>
+					
+					<div id="contact_right">
+						<h2>Contacts</h2>
+						<p>Country : JAKARTA</p>
+						<p>City : Jakarta Selatan</p>
+						<p>Telephone : 081222009663</p>
+						<p>Email : <a href="#">yessitriwahyudi@gmail.com</a></p>
+						<h2>Our Location</h2>
+						
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1564.5296844165982!2d106.73726341251553!3d-6.393144358525137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e8b05acb1b87%3A0xdfc9d74487a960e!2sTamansari+Puri+Bali+Banjar+Ubud!5e0!3m2!1sen!2sid!4v1503132615032" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+						
+					</div>
+					
+				</div>
+			</div>
+	
+<!--------------------------- END CONTENT ----------------------------->
+		<div id="footer">
+			<div class="container">
+				<p>Copyright &copy; Yessi Tri Wahyudi</p>
+			</div>
+		</div>
+<!--------------------------- END CONTENT ----------------------------->
+	</div>
+</body>
+</html>

@@ -1,1 +1,84 @@
-/* Ini file css */
+* {margin: 0px; padding: 0px;}
+
+body {background-color: #000; font-size: 14px; font-family: "Trebuchet", Arial, Helvetica, sans-serif;}
+	.container {width: 940px; height: 100%; margin: auto; overflow: auto; overflow-y: hidden;}
+/************************* END STYLE GENERAL ***********************************/
+#wrapper{width:100%}
+#header {background: url(../images/bg.jpg); height: 130px;}
+#logo {margin-top: 20px; margin-left: 20px; float: left;}
+#menu {height: auto; float: right; margin-top: 20px;}
+#menu li {float: left; list-style: none; width: 110px;}
+	#menu li a:hover {color: #497E04 !important;}
+	#menu li a {display: block; font-size: 20px; line-height: 1.2em; color: #BBB; text-transform: uppercase; text-decoration: none; text-align: center; letter-spacing: -1px; height: 79px; font-weight: 700;}
+	.nav1 {background: url(../images/menu_icon1.gif) no-repeat center bottom;}
+	.nav2 {background: url(../images/menu_icon2.gif) no-repeat center bottom;}
+	.nav3 {background: url(../images/menu_icon3.gif) no-repeat center bottom;}
+	.nav4 {background: url(../images/menu_icon4.gif) no-repeat center bottom;}
+	.nav5 {background: url(../image_gallery/icon_gallery.png)no-repeat center bottom;}
+/************************* END STYLE HEADER ***********************************/
+	#slider {background: url(../images/bg_slider.gif); height: 423px;} 
+
+/************************* END STYLE SLIDER ***********************************/
+	
+#content {background: #FFF; min-height: 500px;}
+	.content_top {min-height: 180px; padding: 40px 0 40px 0; border: 1px ;}
+	 .section {height: 200px; width: 190px; margin-right: 55px; float: left;}
+	 .section p {line-height: 20px; font-style: italic; color: #696969; min-height: 100px;}
+	 .section a {color: #60b000; display: block; margin-top: 10px;}
+	 .last-section {float: right; height: 200px; width: 190px;}
+	 .last-section p {line-height: 20px; font-style: italic; color: #696969; min-height: 100px;}
+	 .last-section a {color: #60b000; display: block; margin-top: 10px;}
+	 
+	 .content_btm {min-height: 295px;}
+	 .conten_btm_left {height: 260px; width: 600px; float: left}
+	 .conten_btm_left h1 {font-size: 40px; font-style: normal; font-weight: 400; line-height: 30px; padding: 0 0 20px 10px; color: #000; border-bottom: 1px solid #ccc; margin-bottom: 15px;}
+	 .conten_btm_left p {font-size: 16px; line-height: 25px; font-style: italic; text-align: justify; color: #696969;}
+	 .conten_btm_left img {margin-left: 10px; float: left; margin-right: 15px; }
+	 .conten_btm_right {width: 300px; height: 270px; float: right; border: 1px solid green;}
+
+/************************* END STYLE SLIDER ***********************************/	 
+
+#footer {background: grey; height: 30px; margin: auto; text-align: center; font-size: 14px; color: #FFF; padding-top: 15px;}
+
+/************************* END STYLE FOOTER ***********************************/	
+
+#greenline {background: url(../images/bg_top_img.jpg) center no-repeat #305d00; height: 10px;}
+.clear {clear: both;}
+.newsitem {min-height: 200px; width: 900px; padding: 20px; overflow: auto;}
+.newsitem:hover {background-color: #CCC;}
+.date_circle {height: 56px; float: left; width: 56px; background: url(../images/date_circle_bg.png) center no-repeat; color: #FFF;}
+.day {text-align: center; font-size: 33px; font-weight: 700px; letter-spacing: -2px;}
+.month {text-align: center; font-size: 18px; font-weight: 400px; display: block; margin-top: -6px;}
+.news_title {width: 800px; line-height: 20px; min-height: 40px; float: left; margin-left: 15px; font-size: 25px; font-weight: 400; margin-top: 15px;}
+.news_image {float: left; margin-top: 15px;}
+.news_synopsis {float: left; margin-top: 15px; margin-left: 15px; width: 700px; line-height: 20px; min-height: 100px; color: #696969;}
+.link_detail {float: left; margin-left: 15px; color: #60b000; margin-top: 10px; display: block;}
+
+/************************* END STYLE NEWS ***********************************/	
+
+.product_item {min-height: 280px; width: 270px; margin: 20px;  float: left; }
+.number_icon {height: 56px; width: 56px; background: url(../images/dropcap1.gif); text-align: center; font-size: 43px; float: left; margin-bottom: 10px; color: #FFF;}
+.product_title {width: 200px; float: left; margin-left: 10px; line-height: 56px; font-size: 28px; text-shadow: 3px 3px 2px #CCC;font-weight: lighter;}
+.product_desc {line-height: 20px; min-height: 60px; color: #696969; margin-top: 10px; font-size: 14px; font-style: italic;}
+.detail_product {float: left; color: #60b000; display: block; margin-top: 10px;}
+
+/************************* END STYLE PRODUCT ***********************************/	
+
+#form_contact {min-height: 300px; width: 515px; float: left; margin-bottom: 20px;}
+	#form_contact h2 {font-size: 38px; font-weight: 400;line-height: 30px; margin-bottom: 15px; padding: 10px 0px 11px; color: #000; letter-spacing: -1px; border-bottom: 1px solid #e5e5e5;}
+	#form_contact input[type=text] {width: 269px; height: 18px; border: 1px solid #e5e5e5; background: #fff; padding: 3px 5px; color: #696968; font: italic 14px "Trebuchet MS", Arial, Helvetica-Normal, Microsoft Sans Serif;}
+	#form_contact input[type=email] {width: 269px; height: 18px; border: 1px solid #e5e5e5; background: #fff; padding: 3px 5px; color: #696968; font: italic 14px "Trebuchet MS", Arial, Helvetica-Normal, Microsoft Sans Serif;}
+	#form_contact textarea {width: 480px; height: 335px; border: 1px solid #e5e5e5; padding: 3px 5px; color: #696968; font: italic 14px "Trebuchet MS", Arial, Helvetica-Normal, Microsoft Sans Serif; margin: 5px 0 10px 0}
+	#form_contact input[type=button] {background: #60b000; border:none; color: #FFF; font-weight: bold; font: 14px "Trebuchet MS", Arial, Helvetica-Normal, Microsoft Sans Serif;}
+	#form_contact input[type=reset] {background: #60b000; border:none; color: #FFF; font-weight: bold; font: 14px "Trebuchet MS", Arial, Helvetica-Normal, Microsoft Sans Serif;}
+	.effect:hover {background-color: #080808 !important; color: #FFF;	cursor: pointer;}
+
+#contact_right {float: right; height: 550px; width: 390px;}
+	#contact_right h2 {font-size: 38px; font-weight: 400; line-height: 30px; margin-bottom: 15px; padding: 10px 0px 11px; color: #000; letter-spacing: -1px; border-bottom: 1px solid #e5e5e5;}
+	#contact_right p {line-height: 22px; font-style: italic; color: #696969;}
+
+/************************* END STYLE FOR CONTACT ***********************************/
+
+.img_box {width: 100%; margin-top: 10px}
+.img_box li {float: left; overflow: hidden; margin: 10px; height: 200px; width: 290px;}
+.img_box img {height: 200px; border-radius: 5px;}
